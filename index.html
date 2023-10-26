@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apex Fitness Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+  <style>
+    body{
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      margin: 0px;
+      padding: 0px;
+      background: url('img/bg.jpg'); 
+    }
+    .left img{
+      width: 215px;
+    }
+    .left{
+      display: inline-block;
+      position: absolute;
+      top: 18px;
+      left: 33px;
+
+    }
+    .left div{
+      line-height: 30px;
+      font-size: 22px;
+      text-align: center;
+    }
+    .mid{
+      display: block;
+      width: 50%;
+      margin: 18px auto;
+
+    }
+    .right{
+      position: absolute;
+      top: 18px;
+      right: 33px;
+      display: inline-block;
+
+    }
+    .navbar{
+      display: inline-block;
+      
+    }
+    .navbar li{
+      display: inline-block;
+      font-size: 20px;
+      
+    }
+    .navbar li a{
+      color: white;
+      text-decoration: none;
+      padding: 34px 23px;
+      
+    }
+    .navbar li a:hover, .navbar li :active{
+      text-decoration: underline;
+      color: gray;
+    }
+    .btn{
+      font-family: 'Montserrat', sans-serif;
+      margin: 0px 9px;
+      background-color: black;
+      color: white;
+      padding: 4px 14px;
+      border: 3px solid gray;
+      border-radius: 10px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+    .btn:hover{
+      background-color: rgb(68, 66, 66);
+    }
+    .container{
+      border: 2px solid white;
+      margin: 236px 407px;
+      padding: 75px;
+      width: 33%;
+      border-radius: 30px;
+    }
+    .form-group input{
+      text-align: center;
+      border: 2px solid black;
+      margin: 9px auto;
+      padding: 1px;
+      border-radius: 8px;
+      display: block;
+      width: 400px;
+      font-size: 20px;
+      font-family: 'Montserrat', sans-serif;
+
+
+    }
+    .container h2{
+      text-align: center;
+      color: black;
+    }
+    .container button{
+      text-align: center;
+      margin: 0px 190px;
+
+    }
+    
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="left">
+      <img src="img/gym.jpg" alt="">
+      <div>Apex Fitness Studio</div>
+</div>
+    <div class="mid">
+      <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Fitness Calculator</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+    </div>
+    <div class="right">
+      <button class="btn">Instagram</button>
+      <button class="btn">Facebook</button>
+    </div>
+  </header>
+  <div class="container">
+    <h2>Join the best gym of Kota</h2>
+    <form action="noaction.php">
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Gender">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Mobile no">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Address">
+      </div>
+      <button class="btn">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
